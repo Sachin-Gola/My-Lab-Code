@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,21 +16,21 @@
     .navbar{
 
         border-bottom: 2px solid black;
-        height: 15vh;
+        height: 12vh;
         display: flex;
-        /* for rowise we are doing flex */
+        /* for row-wise we are doing flex */
     }
     .container2{
         /*border: 2px solid green;*/
-        height: 70vh;
+        height: 76vh;
         display: flex;
     }
     .footer{
         padding-left: 400px;
         padding-right: 400px;
         border-top: 2px solid black;
-        background-color: blanchedalmond;
-        height: 15vh;
+        background-color: antiquewhite;
+        height: 12vh;
         align-items: center;
         justify-content: space-evenly;
         display:flex;
@@ -77,10 +77,11 @@
         border-radius:40px ;
     }
     .btn2{
-        background-color: black;
-        color: white;
+        background-color: green;
+        color: black;
         padding: 10px 30px;
         border-radius:40px ;
+
     }
     img{
         width: 100%;
@@ -96,6 +97,13 @@
         padding-bottom: 50px;
         padding-top: 20px;
     }
+    .sign_in{
+        border-color: #ec6333;
+        background-image: linear-gradient( to right,#ec6333,#f19633,#ec6333);
+        color: white;
+        padding: 10px 30px;
+        border-radius:40px ;
+    }
 
 </style>
 <body>
@@ -107,7 +115,7 @@
         <a href="">Our story</a>
         <a href="">Membership</a>
         <a href="">Write</a>
-        <a href="">sign in</a>
+        <button class="sign_in"><a href="">sign in</a></button>
         <a href="" id="btn">Get Started</a>
 
     </div>
@@ -116,8 +124,8 @@
     <div class="child3">
         <h1 class="heading">Human<br>
             stories & ideas</h1>
-        <h4>A place to read, write, and deepen your understanding</h4>
-        <button class="btn2">start reading</button>
+        <h4 style="font-family: Century,serif">A place to read, write, and deepen your understanding</h4>
+        <button class="btn2"><a href="https://medium.com/tag/human-stories">Start Reading</a> </button>
     </div>
     <div class="child4">
         <img src="https://miro.medium.com/v2/format:webp/4*SdjkdS98aKH76I8eD0_qjw.png" alt="">
