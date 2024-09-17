@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        .container{
+            border: 2px solid red;
+            height: 90vh;
+        }
+
+        .box{
+            border: 2px solid blue;
+            height: 100px;
+            width: 100px;
+            margin: 100px;
+            position: relative;
+            transition-duration: 5s;
+            animation-name: slide;
+            animation-duration: 5s;
+            /* transition: transform, background-color;
+
+            transition-delay: 1s;
+            transition-timing-function: cubic-bezier(0.99,-0.45, 0.44, 1.17); */
+
+            /* multiple transtition constitutes a animation*/
+        }
+
+        /* .box:hover{
+            background-color: aqua;
+            transform: translate(100px,100px); /*position*/
+        /* transform: rotate(360deg); */
+        /* transform: skewX(50deg); */
+        /* border-radius: 40%; */
+
+
+        /*} */
+        @keyframes slide{
+            0%{
+                top: 0px;
+                left: 0px;
+            }
+            25%{
+                top:0px;
+                left:400px;
+            }
+            50%{
+                top:400px;
+                left:400px;
+            }
+            75%{
+                top:400px;
+                left:0px;
+            }
+            100%{
+                top: 0px;
+                left: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="box">
+
+    </div>
+</div>
+
+</body>
+</html>
